@@ -4,8 +4,8 @@ Gin + Element UI + Vue 组合成一套 简陋套件，教程异常详细，非�
 没有花里胡哨的的新奇的技术  
 前后端分离  
 粗糙，前端实际功能就是单页面导航数据请求渲染，CSS,JS,HTML代码纯手敲没有复制  
-Golang的Gin 框架，引入了非常简单的基础包，主要是做mysql查询，MD5混淆  
-ElementUI框架也实现了简单的登录注销，接口token鉴权，数据增删改查，注册管理员账号请手动添加mysql数据
+Golang的Gin 框架，引入了非常简单的基础包，主要是做mysql增删改查，MD5混淆  
+ElementUI框架也实现了简单的登录注销，接口token鉴权，数据增删改查，注册管理员账号请手动添加mysql数据  
 有Docker CI相关的高级功能
 
 # 查看效果
@@ -76,7 +76,7 @@ ElementUI框架也实现了简单的登录注销，接口token鉴权，数据增
 [从零开始摸索VUE，配合Golang搭建导航网站（二十五.vue-admin-template分类详情数据删改查）](https://juejin.cn//post/7034305270289268773)   
 [从零开始摸索VUE，配合Golang搭建导航网站（二十六.vue-admin-template完善用户登录后台接口）](https://juejin.cn//post/7034883872290504741)   
 [从零开始摸索VUE，配合Golang搭建导航网站（二十七.vue-admin-template完善前端登陆逻辑）](https://juejin.cn//post/7035158665489285133)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十八.vue-admin-template完善CI脚本，整体完成上线）](https://juejin.cn//post/7035427424544227358)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十八.vue-admin-template完善CI脚本，整体完成上线，汇总开源！！！）](https://juejin.cn//post/7035427424544227358)   
 
 # 如有帮助可以请我喝杯咖啡
 
