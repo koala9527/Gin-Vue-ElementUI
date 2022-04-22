@@ -1,0 +1,17 @@
+stages:
+  - deploy  #任务阶段顺序,只写了一个deploy部署阶段
+  
+build_master:
+  stage: deploy  #任务阶段
+
+  script:
+    - rm -rf config.ini
+    - cp config-master.ini config.ini
+    - docker build -t my_gin_web:latest .  # CI_JOB_ID是一个环境变量，runner任务ID，可以看做成一个数据库的自增ID，每触发一个任务数字加一
+    - docker stop my_gin_web
+    - docker rm my_gin_web
+    - docker run -d --name my_gin_web  -p 8083:8080  my_gin_web:latest
+  only:
+    - master # 指定只在master分支执行这个任务。
+  tags: 
+    - b4master  #指定执行任务的runner,安装runner的时候会提示填写runner的标签（tag）
