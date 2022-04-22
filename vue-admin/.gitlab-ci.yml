@@ -1,0 +1,28 @@
+stages:
+  - build  #任务阶段。只写了一个build阶段
+  
+cache:
+ key: nodemodules-$CI_COMMIT_REF_NAME
+ paths:
+  - node_modules/
+
+build_develop:
+  stage: build  #指定这个build_develop任务在build阶段
+  cache:
+    key: nodemodules-$CI_COMMIT_REF_NAME
+    paths:
+    - node_modules/
+
+  script:
+    - rm -rf .env
+    - cp .env.production .env
+    - npm install --unsafe-perm  # 执行npm install 安装第三方依赖，--unsafe-perm为了解决一些安装的时候出现了一些无权限创建文件的报错
+    - rm -rf ./dist/   # 删除之前打包生成的文件
+    - npm run build:prod   #重新打包生成文件
+    - rm -rf /opt/vue-admin/ #删除之前上次打包的的文件夹
+    - cp -rf ./dist/ /opt/vue-admin/ #把build生成的文件打包到nginx指定的文件夹
+    - docker restart web-admin  #重启Docker的Nginx容器，这时候前端的所有的静态文件都是新的了
+  only:
+    - master # 指定只在master分支执行这个任务。
+  tags: 
+    - b4master  #指定执行任务的runner,安装runner的时候会提示填写runner的标签（tag）
