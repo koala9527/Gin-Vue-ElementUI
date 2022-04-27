@@ -29,7 +29,7 @@ ElementUI框架也实现了简单的登录注销，接口token鉴权，数据增
 * ![image](https://user-images.githubusercontent.com/36888009/164600171-385c0d9f-f53e-4b68-ad75-3fe2960b1444.png)
 
 ## vue-admin启动
-* 查看.env文件配置`VUE_APP_BASE_API`是不是http://localhost:8080，应该不用改哦
+* 查看.env文件配置`VUE_APP_BASE_API`是不是http://localhost:8080， 应该不用改哦
 * npm install 安装依赖
 * npm run dev 启动脚手架
 * 接下来根据提示访问本地服务地址使用账号密码进去测试一下就行了
@@ -49,34 +49,34 @@ ElementUI框架也实现了简单的登录注销，接口token鉴权，数据增
 《从零开始摸索VUE，配合Golang搭建导航网站》系列   
 还有些项目相关的运维相关的可以参考一下树莓派搭建内网穿透，GitLab搭建的教程 
 
-[从零开始摸索VUE，配合Golang搭建导航网站（一.项目初始化）](https://juejin.cn//post/7025414336608731173)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二.了解项目结构）](https://juejin.cn//post/7025785301410775071)   
-[从零开始摸索VUE，配合Golang搭建导航网站（三.做一个简单的单页面）](https://juejin.cn//post/7026151054836236325)   
-[从零开始摸索VUE，配合Golang搭建导航网站（四.项目运行环境搭建和CI脚本编写）](https://juejin.cn//post/7026553910496067620)   
-[从零开始摸索VUE，配合Golang搭建导航网站（五.使用doker部署启动）](https://juejin.cn//post/7026900855731257381)   
-[从零开始摸索VUE，配合Golang搭建导航网站（六.CSS容器布局学习总结）](https://juejin.cn//post/7027268843441487885)   
-[从零开始摸索VUE，配合Golang搭建导航网站（七.CSS Flex容器布局实战总结）](https://juejin.cn//post/7027643852626329613)   
-[从零开始摸索VUE，配合Golang搭建导航网站（八.基于Golang的Gin框架的介绍）](https://juejin.cn//post/7028007794871631885)   
-[从零开始摸索VUE，配合Golang搭建导航网站（九.Gin框架中GORM使用）](https://juejin.cn//post/7028378570812571656)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十.Gin框架优化，DockerFile编写）](https://juejin.cn//post/7028748827481866254)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十一.Gin容器化部署上线，CI脚本编写）](https://juejin.cn//post/7029164244554203167)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十二.使用Docker 新建Mysql应用，持久化数据保存，修改CI流程）](https://juejin.cn//post/7029490852858691621)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十三.Vue cli axios 简单使用）](https://juejin.cn//post/7029886862663614478)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十四.Vue cli env环境变量 ，后端跨域设置）](https://juejin.cn//post/7030287215108292645)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十五.添加数据后CSS样式优化）](https://juejin.cn//post/7030606687459344392)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十六.CSS动画初探）](https://juejin.cn//post/7030983896950898719)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十七.VUE锚点跳转，基础模板语法总结）](https://juejin.cn//post/7031332298846896165)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十八.Gin框架分层优化）](https://juejin.cn//post/7031719508251262990)   
-[从零开始摸索VUE，配合Golang搭建导航网站（十九.GORM数据增删改查和Gin验证器）](https://juejin.cn//post/7032074651191017486)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十.vue-element-admin 快速上手，认识基本架构）](https://juejin.cn//post/7032449009293738014)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十一.vue-admin-template模拟账号登录）](https://juejin.cn//post/7032880603229847566)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十二.vue-admin-template接入后端接口）](https://juejin.cn//post/7033204767195136036)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十三.vue-admin-template接入后端增删改接口）](https://juejin.cn//post/7033572476164505636)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十四.vue-admin-template带筛选的列表展示，初识双向绑定）](https://juejin.cn//post/7033940928465207332)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十五.vue-admin-template分类详情数据删改查）](https://juejin.cn//post/7034305270289268773)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十六.vue-admin-template完善用户登录后台接口）](https://juejin.cn//post/7034883872290504741)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十七.vue-admin-template完善前端登陆逻辑）](https://juejin.cn//post/7035158665489285133)   
-[从零开始摸索VUE，配合Golang搭建导航网站（二十八.vue-admin-template完善CI脚本，整体完成上线，汇总开源！！！）](https://juejin.cn//post/7035427424544227358)   
+[从零开始摸索VUE，配合Golang搭建导航网站（一.项目初始化）](https://juejin.cn/post/7025414336608731173)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二.了解项目结构）](https://juejin.cn/post/7025785301410775071)   
+[从零开始摸索VUE，配合Golang搭建导航网站（三.做一个简单的单页面）](https://juejin.cn/post/7026151054836236325)   
+[从零开始摸索VUE，配合Golang搭建导航网站（四.项目运行环境搭建和CI脚本编写）](https://juejin.cn/post/7026553910496067620)   
+[从零开始摸索VUE，配合Golang搭建导航网站（五.使用doker部署启动）](https://juejin.cn/post/7026900855731257381)   
+[从零开始摸索VUE，配合Golang搭建导航网站（六.CSS容器布局学习总结）](https://juejin.cn/post/7027268843441487885)   
+[从零开始摸索VUE，配合Golang搭建导航网站（七.CSS Flex容器布局实战总结）](https://juejin.cn/post/7027643852626329613)   
+[从零开始摸索VUE，配合Golang搭建导航网站（八.基于Golang的Gin框架的介绍）](https://juejin.cn/post/7028007794871631885)   
+[从零开始摸索VUE，配合Golang搭建导航网站（九.Gin框架中GORM使用）](https://juejin.cn/post/7028378570812571656)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十.Gin框架优化，DockerFile编写）](https://juejin.cn/post/7028748827481866254)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十一.Gin容器化部署上线，CI脚本编写）](https://juejin.cn/post/7029164244554203167)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十二.使用Docker 新建Mysql应用，持久化数据保存，修改CI流程）](https://juejin.cn/post/7029490852858691621)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十三.Vue cli axios 简单使用）](https://juejin.cn/post/7029886862663614478)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十四.Vue cli env环境变量 ，后端跨域设置）](https://juejin.cn/post/7030287215108292645)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十五.添加数据后CSS样式优化）](https://juejin.cn/post/7030606687459344392)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十六.CSS动画初探）](https://juejin.cn/post/7030983896950898719)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十七.VUE锚点跳转，基础模板语法总结）](https://juejin.cn/post/7031332298846896165)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十八.Gin框架分层优化）](https://juejin.cn/post/7031719508251262990)   
+[从零开始摸索VUE，配合Golang搭建导航网站（十九.GORM数据增删改查和Gin验证器）](https://juejin.cn/post/7032074651191017486)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十.vue-element-admin 快速上手，认识基本架构）](https://juejin.cn/post/7032449009293738014)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十一.vue-admin-template模拟账号登录）](https://juejin.cn/post/7032880603229847566)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十二.vue-admin-template接入后端接口）](https://juejin.cn/post/7033204767195136036)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十三.vue-admin-template接入后端增删改接口）](https://juejin.cn/post/7033572476164505636)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十四.vue-admin-template带筛选的列表展示，初识双向绑定）](https://juejin.cn/post/7033940928465207332)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十五.vue-admin-template分类详情数据删改查）](https://juejin.cn/post/7034305270289268773)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十六.vue-admin-template完善用户登录后台接口）](https://juejin.cn/post/7034883872290504741)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十七.vue-admin-template完善前端登陆逻辑）](https://juejin.cn/post/7035158665489285133)   
+[从零开始摸索VUE，配合Golang搭建导航网站（二十八.vue-admin-template完善CI脚本，整体完成上线，汇总开源！！！）](https://juejin.cn/post/7035427424544227358)   
 
 # 如有帮助可以请我喝杯咖啡
 
