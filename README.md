@@ -10,8 +10,8 @@ ElementUI框架也实现了简单的登录注销，接口token鉴权，数据增
 
 # 查看效果
 目前还是可以查看效果,运行成本几乎没有，不能查看效果可以直接联系我（邮件&iss）  
-前端访问：http://www.tuwei.space/  
-管理后台访问：http://admin.tuwei.space/  账号：admin 密码：111111  
+前端访问：http://www-test.tuwei.space/  
+管理后台访问：http://www-test.tuwei.space/  账号：admin 密码：111111  
 
 # 简单启动介绍
 **这里只介绍本地运行，不介绍容器打包，CI的高级功能**  
